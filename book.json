@@ -1,4 +1,11 @@
 {
+    "bookname": "json-config-name",     
+    "outputfile": "SUMMARY.md",     
+    "catalog": "all", 
+    "ignores": [],     
+    "unchanged": [], 
+    
+    "title": "Sample GitBook",
     "author": "Yao Zhu <me@yaozhu.top>",
     "description": "This is a sample book created by gitbook",
     "extension": null,
@@ -101,6 +108,5 @@
             "multilingual": false     
         }
     },
-    "title": "Sample GitBook",
     "variables": {}
 }
