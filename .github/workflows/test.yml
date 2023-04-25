@@ -36,7 +36,8 @@ jobs:
           MYEMAIL: juoyohub@gmail.com                  # ！！记得修改为自己github设置的邮箱         
           MYNAME: ${{github.repository_owner}}                 
         run: |         
-          cd _book         
+          cd _book
+          git config --global init.defaultBranch <name>         
           git config --global user.email "${MYEMAIL}"         
           git config --global user.name "${MYNAME}"         
           git init         
