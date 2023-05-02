@@ -74,8 +74,8 @@
         },
 
         "donate": {
-            "wechat": "assets/wechat.png",
-            "alipay": "assets/alipay.jpg",
+            "wechat": "./assets/wechat.png",
+            "alipay": "./assets/alipay.jpg",
             "title": "喝咖啡吧",
             "button": "赏",
             "alipayText": "支付宝打赏",
@@ -93,13 +93,15 @@
             "buttons": [
                 { "user": "juoyo",         
                   "repo": "oexambook-in-writing",         
-                  "type": "star",         
-                  "size": "large" 
+                  "type": "star",
+                  "count": true,         
+                  "size": "middle" 
                 }, 
                 { "user": "juoyo",        
                   "type": "follow",         
-                  "width": "120",        
-                  "count": true
+                  "width": "150",        
+                  "count": true,
+                  "size": "middle" 
                 }]     
         },
         "editlink": {       
