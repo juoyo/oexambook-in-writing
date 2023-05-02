@@ -74,8 +74,8 @@
         },
 
         "donate": {
-            "wechat": "./assets/wechat.png",
-            "alipay": "./assets/alipay.jpg",
+            "alipay": "https://github.com/juoyo/oexambook-in-writing/blob/main/assets/alipay.jpg",
+            "wechat": "https://github.com/juoyo/oexambook-in-writing/blob/main/assets/wechat.png",
             "title": "喝咖啡吧",
             "button": "赏",
             "alipayText": "支付宝打赏",
