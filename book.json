@@ -5,9 +5,9 @@
     "ignores": [],     
     "unchanged": [], 
     
-    "title": "Sample GitBook",
+    "title": "公考 GitBook",
     "author": "Yao Zhu <me@yaozhu.top>",
-    "description": "This is a sample book created by gitbook",
+    "description": "公考手册，训练思维，交个朋友",
     "extension": null,
     "generator": "site",
     "isbn": "null",
@@ -74,8 +74,8 @@
         },
 
         "donate": {
-            "wechat": "/assets/wechat.png",
-            "alipay": "/assets/alipay.jpg",
+            "wechat": "assets/wechat.png",
+            "alipay": "assets/alipay.jpg",
             "title": "喝咖啡吧",
             "button": "赏",
             "alipayText": "支付宝打赏",
@@ -98,12 +98,12 @@
                 }, 
                 { "user": "juoyo",        
                   "type": "follow",         
-                  "width": "150",        
+                  "width": "120",        
                   "count": true
                 }]     
         },
         "editlink": {       
-            "base": "https://github.com/juoyo/oexambook-in-writing",       
+            "base": "https://github.com/juoyo/oexambook-in-writing/tree/main",       
             "label": "Edit This Page",       
             "multilingual": false     
         }
