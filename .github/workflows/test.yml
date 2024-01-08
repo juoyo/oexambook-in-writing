@@ -7,10 +7,14 @@ on:                                 #在main分支上进行push时触发
 jobs:   
   main-to-gh-pages:     
     runs-on: ubuntu-latest   
+
+    strategy:
+      matrix:
+        node-version: [16.x] #指定node版本
     
     steps:
       - name: checkout main       
-        uses: actions/checkout@v2       
+        uses: actions/checkout@v3       
         with:         
           ref: main                  
 
@@ -39,7 +43,7 @@ jobs:
           cd _book
           git config --global init.defaultBranch main         
           git config --global user.email "${MYEMAIL}"         
-          git config --global user.name "${MYNAME}"         
+          git config --global user.name "${MYNAME}"
           git init         
           git remote add origin https://${REF}         
           git add .          
